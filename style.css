@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans&family=Roboto:wght@400;700&display=swap');
+
+/* font-family: 'Lora', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Lora', 'Roboto';
+    margin:0;
+    padding: 0;
+    background-size: auto;
+    display: flex;
+    flex-direction: column;
+}
+/* barra de navegación - navbar */
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 15vh;
+}
+
+
+.navbar{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    border-bottom: 1px solid rgba(74, 74, 74, 0.369)
+  
+}
+.navbar li{
+    padding: 0 30px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.principal_container{
+    display: flex;
+    background-image: linear-gradient(rgba(49, 49, 49, 0.75), rgba(61, 61, 61, 0.75)), url(/img/background.jpg);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 82.5vh;
+    
+}
+
+.principal_container .btn{
+        height: 60px;
+        width: auto;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        justify-content: center;
+        background-color: rgb(224, 112, 0);
+        border: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer
+    
+}
+
+.texto_principal{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.gym_description{
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(229, 229, 229, 0.369);
+}
+
+.gym_description .imagen{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gym_description .parrafo{
+    width: 60%;
+    margin: 40px;
+}
+
+.promocion{
+    margin: 0;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    background-image:url(img/img_1_desenfocada.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.promocion h1, .promocion p{
+    color: white;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+.promocion h1{
+    font-weight: bold;
+}
+
+.promocion p{
+    margin-right: 500px;
+}
+
+.promocion .boton{
+    margin-left: 400px;
+    margin-top: 30px;
+    height: 60px;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    background-color: rgb(224, 112, 0);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer
+}
+
+footer{
+    height: 60px;
+    background-color: black;
+    color: white;
+
+}
+
+footer p{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 20px;
+}
